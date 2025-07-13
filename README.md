@@ -84,49 +84,43 @@ The API will be available at `https://localhost:7000` and Swagger documentation 
 ### Create a Portfolio
 
 ```bash
-curl -X POST "https://localhost:7000/api/portfolios" \
-  -H "Content-Type: application/json" \
-  -d '{
+  {
     "name": "Portfolio 1"
-  }'
-```
+  }
 
 ### Create an Asset
 
 ```bash
-curl -X POST "https://localhost:7000/api/assets" \
-  -H "Content-Type: application/json" \
-  -d '{
+  {
     "name": "Apple Inc.",
     "currentPrice": 150.00
-  }'
+  }
 ```
 
 ### Record a Buy Transaction
 
 ```bash
-curl -X POST "https://localhost:7000/api/transactions" \
-  -H "Content-Type: application/json" \
-  -d '{
+  {
     "portfolioId": "portfolio-guid-here",
     "assetId": "asset-guid-here",
     "transactionType": 1,
     "quantity": 10,
     "price": 150.00,
     "date": "2025-07-12T10:00:00Z"
-  }'
+  }
 ```
 
 ### Get Portfolio Performance
 
 ```bash
-curl -X GET "https://localhost:7000/api/portfolios/{portfolio-id}/performance?startDate=2024-01-01&endDate=2024-12-31"
+https://localhost:7000/api/portfolios/{portfolio-id}/performance?startDate=2024-01-01&endDate=2024-12-31"
+
 ```
 
 ### Get Asset Allocation
 
 ```bash
-curl -X GET "https://localhost:7000/api/portfolios/{portfolio-id}/allocation"
+"https://localhost:7000/api/portfolios/{portfolio-id}/allocation"
 ```
 
 
@@ -143,5 +137,5 @@ The application comes with 2 pre-seeded assets:
 - **Realized Gain/Loss**: Calculated from completed sell transactions
 - **Asset Allocation**: (Asset Value / Total Portfolio Value) × 100
 
-## Development
+
 
