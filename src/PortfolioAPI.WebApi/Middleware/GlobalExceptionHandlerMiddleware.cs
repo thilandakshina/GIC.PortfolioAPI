@@ -48,7 +48,6 @@ namespace PortfolioAPI.WebApi.Middleware
                 details = new { },
                 timestamp = DateTime.UtcNow
             };
-
             var jsonResponse = JsonSerializer.Serialize(response, new JsonSerializerOptions
             {
                 PropertyNamingPolicy = JsonNamingPolicy.CamelCase

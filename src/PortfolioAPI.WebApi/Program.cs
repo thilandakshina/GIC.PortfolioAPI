@@ -72,5 +72,4 @@ using (var scope = app.Services.CreateScope())
     var context = scope.ServiceProvider.GetRequiredService<PortfolioDbContext>();
     context.Database.EnsureCreated();
 }
-
 app.Run();
