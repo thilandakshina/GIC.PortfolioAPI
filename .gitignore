@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/src/PortfolioAPI.Application/bin/Debug/net9.0
+/src/PortfolioAPI.Application/obj
+/src/PortfolioAPI.Domain/bin/Debug/net9.0
+/src/PortfolioAPI.Domain/obj
+/src/PortfolioAPI.Infrastructure/bin/Debug/net9.0
+/src/PortfolioAPI.Infrastructure/obj
+/src/PortfolioAPI.Shared/bin/Debug/net9.0
+/src/PortfolioAPI.Shared/obj
+/src/PortfolioAPI.WebApi/obj
+/tests/PortfolioAPI.IntegrationTests/bin/Debug/net9.0
+/tests/PortfolioAPI.IntegrationTests/obj
+/tests/PortfolioAPI.UnitTests/bin/Debug/net9.0
+/tests/PortfolioAPI.UnitTests/obj
+/src/PortfolioAPI.WebApi/bin/Debug/net9.0
+/PortfolioAPI.UnitTests/obj
