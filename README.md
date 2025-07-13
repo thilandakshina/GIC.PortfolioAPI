@@ -138,4 +138,5 @@ The application comes with 2 pre-seeded assets:
 - **Asset Allocation**: (Asset Value / Total Portfolio Value) × 100
 
 
-
+## Sonarcloud
+https://sonarcloud.io/project/overview?id=thilandakshina_GIC.PortfolioAPI
